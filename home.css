@@ -1,0 +1,57 @@
+/* Reset CSS */
+.playball-regular {
+    font-family: "Playball", cursive;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+body, h1, h2, p, span {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7J2P5jkq8OKSBtz4i5BybC9KRe-gdzuBY1A&s");
+    color: #333;
+    background-size: cover;
+
+}
+#title{
+    font-family: 'Playball',cursive;
+    font-size: 50px;
+}
+.container {
+    
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.tagline {
+    font-size: 18px;
+    color: #666;
+}
+
+.weather-info h2,
+.soil-info h2 {
+    margin-bottom: 10px;
+}
+
+.weather-info p,
+.soil-info p {
+    margin-bottom: 5px;
+}
+

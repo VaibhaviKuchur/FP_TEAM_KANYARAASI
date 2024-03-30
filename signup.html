@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tp.css">
+    <title>AgroAdvisor - Sign Up</title>
+</head>
+<body>
+    <div class="container">
+        <img class="applogo" src="https://media.istockphoto.com/id/1263328016/vector/leaf-logo-design-vector-illustration-abstract-leaf-logo-vector-in-creative-design-concept.jpg?s=612x612&w=0&k=20&c=qkqLz8WzQmWnnQlpbMxRXCyAepumQ2nPqA27zkoDEHQ=" alt="AgroAdvisor Logo">
+        <h2>Create an Account</h2>
+        <form action="signup.php" method="POST">
+            <input type="text" name="fullname" placeholder="Full Name" required>
+            <input type="email" name="email" placeholder="Email Address" required>
+            <input type="text" name="username" placeholder="Username" required>
+            <input type="password" name="password" placeholder="Password" required>
+            <button id="gotologin" type="submit">SIGN UP</button>
+            <script>
+                document.getElementById("gotologin").addEventListener("click", function() {
+                    window.location.href = "tp.html";
+                });
+            </script>
+        </form>
+        <p>Already have an account? <a href="tp.html">Log In</a></p>
+    </div>
+</body>
+</html>

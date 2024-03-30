@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tp.css">
+    <title>AgroAdvisor - Login</title>
+</head>
+<body>
+    <div class="container">
+        <img class="applogo" src="https://media.istockphoto.com/id/1263328016/vector/leaf-logo-design-vector-illustration-abstract-leaf-logo-vector-in-creative-design-concept.jpg?s=612x612&w=0&k=20&c=qkqLz8WzQmWnnQlpbMxRXCyAepumQ2nPqA27zkoDEHQ=" alt="AgroAdvisor Logo">
+        <h2>AgroAdvisor</h2>
+        <h2>Harvest Tomorrow's Success Today</h2>
+        <form action="login.php" method="POST">
+            <input type="text" name="username" placeholder="Username" required >
+            <input type="password" name="password" placeholder="Password" required>
+            <button id="goToHomePage" type="submit">LOGIN</button>
+            <script>
+                document.getElementById("goToHomePage").addEventListener("click", function() {
+                    window.location.href = "home.html";
+                });
+            </script>
+        </form>
+        <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+    </div>
+</body>
+</html>
